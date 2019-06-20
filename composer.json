@@ -1,0 +1,24 @@
+{
+    "name": "azonmedia/superglobal-wrappers",
+    "type": "library",
+    "description": "Wrappers around PHP superglobals",
+    "keywords": ["superglobals","wrappers"],
+    "homepage": "https://github.com/AzonMedia/superglobal-wrappers",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azonmedia\\SuperglobalWrappers\\": "src/"
+        }
+    }
+}
