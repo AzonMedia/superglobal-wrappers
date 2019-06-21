@@ -14,7 +14,7 @@ class SuperglobalsBase implements \ArrayAccess
     /**
      * @var string
      */
-    protected $exception_message = NULL;//да спира употребата на супер глобалната независимо дали от овърлоудинг или през класа, винаги да дава грешка, в слуле няма сървър
+    protected $exception_message = NULL;
 
     public function __construct(array &$data, ?string $throw_exception_message = NULL)
     {
